@@ -1,0 +1,86 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("8QP82ad86-goXUX8E");
+   })();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<body>
+    </head>
+      <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+      <main>
+        <!--<TheWelcome />-->
+        <div id="home">
+          <br><br>
+        <h1>Welcome to the Davendra Ramnarine Portfolio page!</h1>
+        <h2>On this website, you would be able to contact me and see projects that I have conducted throughout the years.</h2>
+        <h2>Now you may be wondering, who is Davendra Ramnarine, and why should you care? </h2>
+        <img src="images/IMG_5150.jpg">
+        </div>
+        <br>
+        
+        <br><br><br><br><br><br>
+        <div id="about">
+          <br><br>
+        <h2>This website is about Davendra Ramnarine, and like the text above said, who is Davendra Ramnarine?
+          <br><h2>Davendra Ramnarine has been described as the following</h2>
+          <ul class="who">
+            <li>Programmer &#x1F4BB</li>
+            <li>Youtuber &#x1F4F9</li>
+            <li>Artist</li>
+          </ul>
+          <h2>If you wish to contact Davendra Ramnarine, call 9803554433 or check out the contact section.</h2>
+        </div>
+        <br>
+        
+        <br><br><br><br><br>
+      
+        <div id="contact">
+          <br><br><br><br><br>
+          <form>
+            Name:<br>
+            <input type="text" size="19" id="Contact-Name"><br><br>
+            Email:<br>
+            <input type="email" id="Contact-Email"><br><br> 
+            Message:<br> 
+            <textarea id="Contact-Message" rows="6″ cols="20″>
+            </textarea><br><br> 
+            <button type="submit" value="Submit" onclick='sendMail()'>Send</button>
+        </form>  
+        </div>
+        <br>
+        
+        <br><br><br><br><br><br><br>
+        <div id="projects">
+          
+        <br><br>
+          <h1>Some projects that I have worked on include</h1>
+          <ul class="examples">
+            <li><a href="https://github.com/bkeonakh/TeamTweentyNine">Question and Answering App in Flask</a></li>
+            <li><a href="https://github.com/daver-creator/javaproject1">Java Image Manipulation Software</a/li>
+            <li><a href="https://docs.google.com/document/d/161-5GrV5pT3M2WO1z6CxdCVaApgg_iCuKORdkm3ldQ0/edit?usp=sharing">Data science paper on wealth inequality</a></li>
+          </ul>
+        </div>
+
+
+      </main>
+    </body>

@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,34,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+#home,#about,#contact {
+    /*padding-top: 500px;*/
+    width: 100%;
+    margin-bottom: 500px;
+}
+
+ul{
+    list-style-type: circle;
+    
+}
+
+.who li,.examples li a{
+    font-size:30px;
+    background-color: #FFFF00
+}
+
+button{
+    box-shadow:inset 0px -3px 7px -1px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:-2px 2px 0px #263666;
+}
+
+
+form{
+    max-width: 64em;
+    margin: auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ),
+    repeating-linear-gradient( #45b3f755, #45b3f7 );
+}
+
+img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
